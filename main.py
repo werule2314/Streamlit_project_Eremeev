@@ -57,7 +57,7 @@ def visualize_data(movies, ratings):
     st.pyplot(fig)
 
 
-visualize_data(movies, ratings)
+# visualize_data(movies, ratings)
 
 
 # Кластеризация фильмов по рейтингу
@@ -73,7 +73,7 @@ def cluster_movies(ratings):
     st.pyplot(fig)
 
 
-cluster_movies(ratings)
+# cluster_movies(ratings)
 
 
 # Прогнозирование рейтинга
